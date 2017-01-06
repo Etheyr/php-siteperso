@@ -1,1 +1,8 @@
-put some footer here
+<footer>
+	
+
+
+</footer>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
