@@ -1,12 +1,12 @@
 
 <menu>
 
-<div class="mainHeader" id="partieHeader">
+	<div class="mainHeader" id="partieHeader">
 		<div class="menu">
 			<div class="leftMenu">
 				<div class="ui top fixed menu">
 					<div class="item">
-						<img src="#" class="logo">
+						
 					</div>
 					<h1 class="bordtitlemenu">Porte Folio</h1>
 					<div class="ui right item">
@@ -24,7 +24,7 @@
 		<div class="rightMenu">
 		</div>
 
-	
+		
 
 
-</menu>
+	</menu>
