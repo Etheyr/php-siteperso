@@ -1,10 +1,56 @@
-* {
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-	font-size:1rem;
-}
 
-html {
-	font-size:62.5%;
-}
+
+.mainHeader {
+	background-color: #6AAFE6;
+	color: #f4f5f9;
+	padding: 2em 5em;
+	width: 100%;
+	height: 41em;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	font-family: "Open sans", Sans-serif; }
+
+	.acolor {
+		color: #f4f5f9; 
+	}
+
+	.ui.top.fixed.menu {
+		background-color: #6AAFE6;
+
+	}
+
+	#acolor {
+		color: #f4f5f9; 
+	}
+
+	.bordtitlemenu {
+		margin-top: 20px; 
+	}
+
+	.menu .leftMenu {
+		display: inline-block; 
+	}
+	.menu .leftMenu h1 {
+		line-height: 1em;
+		display: inline-block; 
+	}
+	.menu .rightMenu {
+		display: inline-block;
+		float: right; 
+	}
+
+	.menu .rightMenu li {
+		display: inline-block;
+		list-style: none;
+		text-decoration: none;
+		margin: 0 auto;
+		width: 8em;
+		text-align: center; 
+	}
+	.menu .rightMenu a {
+		color: #f4f5f9; 
+	}
+	.menu .rightMenu a:hover {
+		border-bottom: 0.1em solid #f4f5f9;
+	}
+
