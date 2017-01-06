@@ -1,10 +1,5 @@
 <?php
 
-/* 
-vous ajouterez ici les fonctions qui vous sont utiles dans le site,
-je vous ai créé la première qui est pour le moment incomplète et qui devra contenir
-la logique pour choisir la page à charger
-*/
 
 function getContent(){
 	if(!isset($_GET['page'])){
@@ -16,4 +11,12 @@ function getContent(){
 
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
+}
+
+function getUserData(){
+
+	$json_url = "../data/user.json";
+	$json = file_get_contents($json_url);
+	$data = json_decode($json,true);
+	var_dump($data);
 }
