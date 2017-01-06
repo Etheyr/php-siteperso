@@ -11,10 +11,9 @@
 					<h1 class="bordtitlemenu">Porte Folio</h1>
 					<div class="ui right item">
 						<div class="ui secondary  menu">
-							<a href="#" class="item" id="acolor">Accueil</a></li>
-							<a href="#" class="item" id="acolor">Projets</a></li>
-							<a href="#" class="item" id="acolor">Biographie</a></li>
-							<a href="#" class="item" id="acolor">Contact</a></li>
+							<a href="index.php?page=home" class="item" id="acolor">Accueil</a></li>
+							<a href="index.php?page=bio" class="item" id="acolor">Biographie</a></li>
+							<a href="index.php?page=contact" class="item" id="acolor">Contact</a></li>
 						</div>
 					</div>
 
